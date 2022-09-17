@@ -1,0 +1,158 @@
+/*Estilização do Corpo da Página*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'tahoma','Arial';
+}
+/*Estilização da sessão HEADER da página*/
+header{
+    background: linear-gradient(rgb(0, 56, 139),gray) ;/*Cor do cabeçalho, esta em degrade*/
+    padding: 20px 0; /*espaçamento do cabeçalho*/
+}
+/*Estilização da sessão NAV (navegação da página)*/
+nav{
+    position: absolute; /*Qual a posição que o nav estará dentro do header*/
+    top: 10px; /*Distância do topo*/
+    right: 0; /*Distancia a direita*/
+}
+nav li { /*Navegação Lista*/
+    display: inline; /*inline"Lista em linha", por padrão a liata vem como coluna*/
+    margin:  0 0 0 100px;
+   
+}
+nav a{ /*Elemento do html que é o link usado no nav*/
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#0015ff;
+    text-decoration: underline;
+}
+/*Estilização das listas da página*/
+ul{
+    list-style: none; /*marcação bolinha*/
+}
+/*Estilização do Logotipo*/
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+/*Banner*/
+.banner{
+    width: 100%; /*imagem lateral*/
+    height:0%; /**imagem altura*/
+    
+
+}
+.logo{
+    width: 20%;/*O logo oculpa a porcentagem atribuida*/
+}
+   
+/*Estilização da área "Sobre"*/
+.titulo-principal{
+    text-align:center;
+    font-size: 1.0cm;/*dobro da fonte padrão*/
+    margin: 0 0 1em;
+    clear: left;
+    
+}
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+   
+    text-align: justify;
+}
+ .principal strong{
+    font-weight: bold;
+ }
+
+ .principal em{
+    font-style: italic;
+ }
+.iot{
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+main{
+    background: linear-gradient(white,rgb(0, 56, 139),white);
+    margin-top: -5px;
+}  
+
+/*Estilização do Mapa*/
+.map{
+    padding: 3em 0;
+} 
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 343px;
+}
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+/*Área Beneficios e Video*/
+.beneficios{
+    padding: 3em 0;
+   
+}
+.conteudo-beneficio{
+    width: 80%;
+    margin: 0 auto;
+}
+.lista-beneficio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.img_beneficios{
+    width: 40%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px black;
+    
+    
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+.itens{
+    line-height: 1.5;
+}
+.itens:before{
+    content: "@";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+footer{
+    text-align: center;
+    background: url("");
+    padding: 40px 0;
+}
+
+/*================================================================================================================*/
+/*Banner*/
+.banner{
+    width: 100%
+}
+
+/*copyright*/
+.copyright{
+    color:black;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
