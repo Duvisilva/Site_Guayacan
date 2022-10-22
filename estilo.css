@@ -156,3 +156,58 @@ footer{
     font-size: 13px;
     margin: 20px 0 0;
 }
+/*MENU AUTOMAÇÃO*/
+.residencial-titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.residencial-item::before{
+    content: "@";
+}
+.residencial{
+    width: 100%;
+    margin: 0px 0 50px 0;
+    display:flex;
+}
+.residencial li{
+    
+    display: inline-block;
+
+    text-align: center;
+
+    margin:0 7.5%;
+
+    box-sizing: border-box;
+
+    border: 4px solid #f8c418;
+
+    border-radius: 30px;
+}
+.residencial p{
+    font-size: 30px;
+}
+.residencial li:hover{
+
+    border-color: #C78C19;
+    border: 5px solid;
+}
+
+.residencial li:active{
+
+    border-color: #088C19;
+
+}
+
+
+.img_camera{
+    width: 110%;
+
+}
+.img_lampada{
+    width: 90%;
+    margin-left: 10%;
+}
+.img_som{
+    width: 80%;
+}
